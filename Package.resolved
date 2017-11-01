@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FisherYates",
+        "repositoryURL": "https://github.com/nieyu/FisherYates.git",
+        "state": {
+          "branch": null,
+          "revision": "991e48f80bcaf11f501b3e79ce5c5f8c5f4f74f5",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "PlayingCard",
+        "repositoryURL": "https://github.com/nieyu/PlayingCard.git",
+        "state": {
+          "branch": null,
+          "revision": "2640cb90839c8d8cd505c4a17aadc8f66a93794b",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
