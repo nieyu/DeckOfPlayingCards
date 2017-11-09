@@ -4,14 +4,14 @@ import PlayingCard
 public struct Deck {
 	fileprivate var cards: [PlayingCard]
 
-	pulic static func standard52CardDeck() -> Deck {
+	public static func standard52CardDeck() -> Deck {
 		let suits: [Suit] = [.spades, .hearts, .diamonds, .clubs]
-		let ranks: [Rank] = [.two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .jack, .queen, .king, ace]
+		let ranks: [Rank] = [.two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .jack, .queen, .king, .ace]
 		
 		var cards: [PlayingCard] = []
 		for rank in ranks {
 			for suit in suits {	
-				cards.append(PlayingCards(rank: rand, suit: suit))
+				cards.append(PlayingCard(rank: rank, suit: suit))
 			}			
 		}
 		
@@ -42,6 +42,6 @@ extension Deck: ExpressibleByArrayLiteral {
 
 // MARK: - Equatable 
 
-public func ==(lhs: Deck, rhs: Deck) {
+public func ==(lhs: Deck, rhs: Deck) -> Bool {
 	return lhs.cards == rhs.cards
 }
