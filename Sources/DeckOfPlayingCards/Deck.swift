@@ -42,6 +42,8 @@ extension Deck: ExpressibleByArrayLiteral {
 
 // MARK: - Equatable 
 
+extension Deck: Equatable {}
+
 public func ==(lhs: Deck, rhs: Deck) -> Bool {
 	return lhs.cards == rhs.cards
 }

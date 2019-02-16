@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/nieyu/FisherYates.git",
         "state": {
           "branch": null,
-          "revision": "a164c34529c15a11f53cc0d5ee3d9c7ac3cdd8bb",
-          "version": "2.0.1"
+          "revision": "bcb27210f51c85ea217fa608ec33b6015ab8507f",
+          "version": "3.0.2"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/nieyu/PlayingCard.git",
         "state": {
           "branch": null,
-          "revision": "75fb3c25c6cf521236fc5819f4ce58368324e3c9",
-          "version": "2.0.5"
+          "revision": "61405e9776a2fae001a19bd5de619bbab6121906",
+          "version": "2.0.6"
         }
       }
     ]

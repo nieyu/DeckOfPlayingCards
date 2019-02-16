@@ -1,6 +1,12 @@
+//import XCTest
+//@testable import DeckOfPlayingCardsTests
+//
+//XCTMain([
+//    testCase(DeckOfPlayingCardsTests.allTests),
+//])
+import DeckOfPlayingCardsTests
 import XCTest
-@testable import DeckOfPlayingCardsTests
 
-XCTMain([
-    testCase(DeckOfPlayingCardsTests.allTests),
-])
+var tests = [XCTestCaseEntry]()
+tests += DeckOfPlayingCardsTests.allTests()
+XCTMain(tests)
